@@ -1,0 +1,21 @@
+# GitHub Packages NPM Registry Configuration
+# 
+# This file configures npm to use GitHub Packages as a scoped registry.
+# 
+# ⚠️ IMPORTANT: Never commit your token to git!
+# Add this file to .gitignore if including your token.
+# 
+# Instead, configure globally using:
+#   npm config set @laneway:registry https://npm.pkg.github.com
+#   npm config set //npm.pkg.github.com/:_authToken YOUR_GITHUB_TOKEN
+# 
+# Or set via environment variables:
+#   export NPM_TOKEN="your_token_here"
+
+# Point @laneway scoped packages to GitHub Packages
+@laneway:registry=https://npm.pkg.github.com
+
+# GitHub authentication token
+# Get yours at: https://github.com/settings/tokens/new
+# Requires: read:packages, write:packages
+//npm.pkg.github.com/:_authToken=ghp_YOUR_GITHUB_TOKEN_HERE

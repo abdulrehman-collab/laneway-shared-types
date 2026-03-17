@@ -1,0 +1,36 @@
+{
+  "name": "@laneway/shared-types",
+  "version": "1.0.0",
+  "description": "Shared TypeScript types, enums, DTOs, and interfaces for Laneway platform",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abdulrehman-collab/laneway-shared-types.git"
+  },
+  "keywords": [
+    "laneway",
+    "types",
+    "enums",
+    "dtos",
+    "interfaces",
+    "typescript"
+  ],
+  "author": "Laneway Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
