@@ -1,5 +1,6 @@
 {
-  "name": "@laneway/shared-types",
+  
+  "name": "@abdulrehman-collab/shared-types",
   "version": "1.0.0",
   "description": "Shared TypeScript types, enums, DTOs, and interfaces for Laneway platform",
   "private": false,
