@@ -5,6 +5,9 @@ export enum ListingType {
 
 export enum ListingStatus {
   DRAFT = 'draft',
+  /** Auction has a future `starts_at`. Visible to browsers with a countdown,
+   *  but no bidding allowed yet. Auto-transitions to ACTIVE when time hits. */
+  SCHEDULED = 'scheduled',
   ACTIVE = 'active',
   SOLD = 'sold',
   EXPIRED = 'expired',
